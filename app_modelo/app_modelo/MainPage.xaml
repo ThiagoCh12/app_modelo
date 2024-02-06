@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="app_modelo.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Localização no maps" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="País"/>
+        <Entry x:Name="txtPais" Placeholder="Digite o país:" PlaceholderColor="Gray"/>
+        <Label Text="UF"/>
+        <Entry x:Name="txtUF" Placeholder="Digite a UF" PlaceholderColor="Gray"/>
+        <Label Text="Local"/>
+        <Entry x:Name="txtLocal" Placeholder="Digite o local" PlaceholderColor="Gray"/>
+        <Label Text="Cidade"/>
+        <Entry x:Name="txtCidade" Placeholder="Digite a cidade" PlaceholderColor="Gray"/>
+
+        <Button Text="Ver mapa" Clicked="Button_Clicked"/>
+        <Label x:Name="lblPais"/>
+        <Label x:Name="lblUf"/>
+        <Label x:Name="lblLocal"/>
+        <Label x:Name="lblCidade"/>
+
+    </StackLayout>
+
+</ContentPage>
